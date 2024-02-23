@@ -5,6 +5,7 @@ import (
 
 	hubtypes "github.com/sentinel-official/hub/types"
 	"github.com/sentinel-official/hub/x/node/keeper"
+	_ "github.com/sentinel-official/hub/x/node/legacy/v1/types"
 	"github.com/sentinel-official/hub/x/node/types"
 )
 

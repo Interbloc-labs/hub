@@ -9,6 +9,11 @@ import (
 	servercmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
 	hubtypes "github.com/sentinel-official/hub/types"
+	_ "github.com/sentinel-official/hub/x/node/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/plan/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/provider/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/session/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/subscription/legacy/v1/types"
 )
 
 func HomeDir() (string, error) {
