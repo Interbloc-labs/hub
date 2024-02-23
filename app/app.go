@@ -33,6 +33,12 @@ import (
 
 	"github.com/sentinel-official/hub/app/ante"
 	"github.com/sentinel-official/hub/app/upgrades"
+
+	_ "github.com/sentinel-official/hub/x/node/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/plan/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/provider/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/session/legacy/v1/types"
+	_ "github.com/sentinel-official/hub/x/subscription/legacy/v1/types"
 )
 
 const (
